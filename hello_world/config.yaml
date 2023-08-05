@@ -12,10 +12,10 @@ categories:
 extensions:
   - id: hello_world_feature_extension_0
     category: feature
-    source: https://github.com/AhmedCoolProjects/hello_world_feature_extension.git
+    source: https://github.com/AhmedCoolProjects/hello_world_feature_extension_sonic_engine.git
   - id: hello_world_inference_extension_0
     category: inference
-    source: https://github.com/AhmedCoolProjectTwo/hello_world_inference_extension.git
+    source: https://github.com/AhmedCoolProjects/hello_world_inference_extension.git
   - id: hello_world_reporting_extension_0
     category: reporting
     source: https://github.com/AhmedCoolProjects/hello_world_reporting_extension.git
