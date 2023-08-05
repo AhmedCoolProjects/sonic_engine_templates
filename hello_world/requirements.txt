@@ -1,0 +1,3 @@
+sonic-engine @ git+https://github.com/sooualil/sonic_engine_yapsy.git@as-package
+virtualenv==20.24.2
+

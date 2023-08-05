@@ -1,0 +1,22 @@
+metadata:
+  extensions_folder: extensions
+
+categories:
+  - name: feature
+    description: Extensions that extract features from flows
+  - name: inference
+    description: Extensions that infer information from flows and requests predictions
+  - name: reporting
+    description: Extensions that report the results
+
+extensions:
+  - id: hello_world_feature_extension_0
+    category: feature
+    source: https://github.com/AhmedCoolProjects/hello_world_feature_extension.git
+  - id: hello_world_inference_extension_0
+    category: inference
+    source: https://github.com/AhmedCoolProjectTwo/hello_world_inference_extension.git
+  - id: hello_world_reporting_extension_0
+    category: reporting
+    source: https://github.com/AhmedCoolProjects/hello_world_reporting_extension.git
+# TODO: extra config to update the default ones directly from this global one
