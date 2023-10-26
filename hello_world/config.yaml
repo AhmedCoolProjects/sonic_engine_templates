@@ -12,11 +12,14 @@ categories:
 extensions:
   - id: hello_world_feature_extension_0
     category: feature
-    source: https://github.com/AhmedCoolProjects/hello_world_feature_extension_sonic_engine.git
+    source: https://github.com/AhmedCoolProjects/sonic-engine-hello-world-feature.git
   - id: hello_world_inference_extension_0
     category: inference
     source: https://github.com/AhmedCoolProjects/hello_world_inference_extension.git
+  # - id: hello_world_inference_extension_1
+  #   category: inference
+  #   branch: branch-for-duplication
+  #   source: https://github.com/AhmedCoolProjects/hello_world_inference_extension.git
   - id: hello_world_reporting_extension_0
     category: reporting
     source: https://github.com/AhmedCoolProjects/hello_world_reporting_extension.git
-# TODO: extra config to update the default ones directly from this global one
