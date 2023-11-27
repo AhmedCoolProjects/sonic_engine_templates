@@ -2,8 +2,7 @@ from sonic_engine.core.engine import Engine
 
 
 def main():
-
-    engine = Engine((__file__, './config.yaml'))
+    engine = Engine((__file__, "./config.yaml"))
     engine.start()
 
 
