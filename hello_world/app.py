@@ -10,8 +10,10 @@ from sonic_engine.core.engine import Engine
 
 
 def main():
-    file_name = "../config.yaml"
-    engine = Engine(os.path.join(__file__, file_name))
+    current_dir = os.path.dirname(os.path.realpath(__file__))
+    file_name = "config.yaml"
+    file_path = os.path.join(current_dir, file_name)
+    engine = Engine(file_path)
     engine.start()
 
 
